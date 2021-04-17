@@ -1,0 +1,14 @@
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\Formularios.exe.config
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\Formularios.exe
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\Formularios.pdb
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.FormularioPrincipal.resources
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.Properties.Resources.resources
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.csproj.GenerateResource.cache
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.exe
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.pdb
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\EjercicioPOO.exe
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\EjercicioPOO.pdb
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\bin\Debug\EjercicioPOO.exe.config
+C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\Formularios\obj\Debug\Formularios.csproj.CopyComplete
