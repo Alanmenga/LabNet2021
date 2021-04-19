@@ -1,7 +1,0 @@
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\bin\Debug\EjercicioPOO.exe.config
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\bin\Debug\EjercicioPOO.exe
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\bin\Debug\EjercicioPOO.pdb
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\obj\Debug\EjercicioPOO.csprojAssemblyReference.cache
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\obj\Debug\EjercicioPOO.csproj.CoreCompileInputs.cache
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\obj\Debug\EjercicioPOO.exe
-C:\Users\Alan\Desktop\NeorisLab\EjercicioPOO\EjercicioPOO\obj\Debug\EjercicioPOO.pdb
