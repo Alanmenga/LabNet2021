@@ -1,0 +1,15 @@
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Data.dll.config
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Data.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Data.pdb
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\EntityFramework.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Entities.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Entities.pdb
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\Mengassini.LINQ.Entities.dll.config
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\EntityFramework.xml
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\obj\Debug\Mengassini.LINQ.Data.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\obj\Debug\Mengassini.LINQ.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\obj\Debug\Mengassini.LINQ.Data.csproj.CopyComplete
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\obj\Debug\Mengassini.LINQ.Data.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio6LinQ\Mengassini.LINQ\Mengassini.LINQ.Data\obj\Debug\Mengassini.LINQ.Data.pdb
