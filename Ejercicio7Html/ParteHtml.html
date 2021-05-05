@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Mengassini</title>
+    <link rel="stylesheet" href="ParteCss.css">
+    <script src="ParteJs.js"></script>
+</head>
+<body>
+    <div id="form_container">
+        <form name="form1" id="formulario_1" class="class_form" action="/my-handling-form-page" method="post">
+            <img src="UTN_logo.jpg" align="right">
+            <h1>Formulario Mengassini</h1>
+            <p>Completa el formulario con tus datos</p>
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                    <li>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" name="" id="input_nombre"><br>
+                        <label for="apellio">Apellido:</label><br>
+                        <input type="text" name="" id="input_apellido"><br>
+                        <label for="edad">Edad:</label><br>
+                        <input type="text" name="" id="input_edad"><br>
+                    </li>
+                    <li>
+                        <input type="radio" name="opcion" id="opcion" class="element_radio">
+                        <label class="opciones" for="opcion1">Masculino</label>
+                        <input type="radio" name="opcion" id="opcion" class="element_radio">
+                        <label class="opciones" for="opcion2">Femenino</label>
+                        <input type="radio" name="opcion" id="opcion" class="element_radio">
+                        <label class="opciones" for="opcion3">Otro</label>
+                    </li>       
+            </fieldset>
+            <fieldset>
+                <legend>Informacion Adicional</legend>
+                    <li>
+                        <label for="name">Empresa:</label><br>
+                        <input type="text" name="" id="input_empresa">
+                    </li>
+            </fieldset>
+            <input type="button" value="Enviar" id="btn_enviar" onclick="mensajeEnviar()">
+            <input type="button" value="Limpiar" id="btn_limpiar" onclick="mensajeLimpiar()">
+            
+        </form>
+    </div>
+</body>
+</html>

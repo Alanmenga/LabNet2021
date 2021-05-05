@@ -1,0 +1,65 @@
+form
+{
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: rgba(38, 91, 97, 0.686);
+    font-family: Arial;
+    list-style: none;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#input_edad
+{
+    width: 50px;
+}
+
+label, legend{
+    font-weight: bold;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(17, 16, 16);
+}
+
+fieldset{
+    border: 1px solid #eee;
+}
+
+fieldset label{
+    font-weight: normal;
+    font-size: 1em;
+    font-family: serif;
+    margin: 5px 0 8px 0;
+}
+
+
+input.text
+{
+    font: 1em sans-serif;
+    width: 30px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input, textarea, fieldset, select, button{
+    margin: 5px 0 10px 0;
+}
+
+input.radio
+{
+	height:13px;
+	line-height:1.4em;
+	margin: 5px;
+	width:13px;
+    display: inline-block;
+}
+  
+  
