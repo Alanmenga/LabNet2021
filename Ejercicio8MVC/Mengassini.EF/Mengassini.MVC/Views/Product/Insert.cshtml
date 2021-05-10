@@ -1,0 +1,14 @@
+﻿@model Mengassini.MVC.Models.ProductsView
+@{
+    ViewBag.Title = "Product Page";
+}
+
+<h1>Vista para insertar</h1>
+
+@using (Html.BeginForm("InsertUpdate", "Products", FormMethod.Post))
+{
+    <label>Name: </label> @Html.TextBoxFor(p => p.Name)
+    <label>Quantity per unit: </label> @Html.TextBoxFor(p => p.QuantityPerUnit)
+    <label>Price: </label> @Html.TextBoxFor(p => p.Price)
+    <input type="submit" class="btn btn-success" value="Guardar" />
+}
