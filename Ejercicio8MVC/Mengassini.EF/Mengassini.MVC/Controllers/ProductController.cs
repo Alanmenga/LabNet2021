@@ -11,83 +11,45 @@ namespace Mengassini.MVC.Controllers
 {
     public class ProductController : Controller
     {
-        ProductsLogic logic = new ProductsLogic();
+         ProductsLogic logic = new ProductsLogic();
         // GET: Product
         public ActionResult Index()
         {
-            List<Products> products = logic.GetAll();
-            List<ProductsView> productsViews = products.Select(p => new ProductsView
+            List<Products> productos = logic.GetAll();
+
+            /*List<ProductView> productsView = productos.Select(p => new ProductView
             {
                 Id = p.ProductID,
-                Name = p.ProductName,
-                QuantityPerUnit = p.QuantityPerUnit,
-                Price = (decimal)p.UnitPrice
-            }).ToList();
-            return View(productsViews);
-        }
+                Nombre = p.ProductName,
+                Precio = (decimal)p.UnitPrice
+            }).ToList();*/
 
-        public ActionResult Update(int id)
-        {
-            List<Products> products = logic.GetAll();
-
-            List<ProductsView> productsView = products.Where(p => p.ProductID == id).Select(p => new ProductsView
-            {
-                Id = p.ProductID,
-                Name = p.ProductName,
-                QuantityPerUnit = p.QuantityPerUnit,
-                Price = (decimal)p.UnitPrice
-            }).ToList();
-            ProductsView productView = productsView[0];
-            return View("Insert", productView);
+            return View(productos);
         }
 
         public ActionResult Insert()
         {
-            return View("Insert", new ProductsView());
+            return View();
         }
-
 
         [HttpPost]
-        public ActionResult InsertUpdate(ProductsView productsView)
+        public ActionResult Insert(ProductView productView)
         {
-            if (productsView.Id <= 0)
+            try
             {
-                try
+                Products productEntity = new Products
                 {
-                    Products productsEntity = new Products
-                    {
-                        ProductName = productsView.Name,
-                        QuantityPerUnit = productsView.QuantityPerUnit,
-                        UnitPrice = productsView.Price
-                    };
-                    logic.Add(productsEntity);
-                    return RedirectToAction("Index");
-                }
-                catch (Exception ex)
-                {
-                    return RedirectToAction("Index", "Error");
-                }
+                    ProductName = productView.Nombre,
+                    UnitPrice = productView.Precio
+                };
+                logic.Add(productEntity);
+                return RedirectToAction("index");
             }
-            else
+            catch (Exception ex)
             {
-                try
-                {
-                    Products productsEntity = new Products
-                    {
-                        ProductName = productsView.Name,
-                        QuantityPerUnit = productsView.QuantityPerUnit,
-                        UnitPrice = productsView.Price
-                    };
-                    logic.Update(productsEntity);
-                    return RedirectToAction("Index");
-                }
-                catch (Exception ex)
-                {
-                    return RedirectToAction("Index", "Error");
-                }
+                return RedirectToAction("Index", "Error");
             }
         }
-
 
         public ActionResult Delete(int id)
         {
@@ -101,6 +63,5 @@ namespace Mengassini.MVC.Controllers
                 return RedirectToAction("Index", "Error");
             }
         }
-
     }
 }

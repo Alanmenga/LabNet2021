@@ -34,7 +34,6 @@ namespace Mengassini.MVC.Controllers
         public ActionResult Update(int id)
         {
             List<Region> region = logic.GetAll();
-
             List<RegionView> regionsView = region.Where(r => r.RegionID == id).Select(r => new RegionView
             {
                 Id = r.RegionID,
@@ -62,7 +61,7 @@ namespace Mengassini.MVC.Controllers
                         RegionDescription = regionsView.Description
                     };
                     logic.Add(regionEntity);
-                    return RedirectToAction("Index");
+                    return RedirectToAction("index");
                 }
                 catch (Exception ex)
                 {

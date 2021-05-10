@@ -5,14 +5,10 @@ using System.Web;
 
 namespace Mengassini.MVC.Models
 {
-    public class ProductsView
+    public class ProductView
     {
         public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public string QuantityPerUnit { get; set; }
-
-        public decimal Price { get; set; }
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
     }
 }

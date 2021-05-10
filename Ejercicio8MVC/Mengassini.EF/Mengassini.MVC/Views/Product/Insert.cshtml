@@ -1,14 +1,13 @@
-﻿@model Mengassini.MVC.Models.ProductsView
+﻿@model Mengassini.MVC.Models.ProductView
 @{
     ViewBag.Title = "Product Page";
 }
 
 <h1>Vista para insertar</h1>
 
-@using (Html.BeginForm("InsertUpdate", "Products", FormMethod.Post))
+@using (Html.BeginForm("Insert", "Product", FormMethod.Post))
 {
-    <label>Name: </label> @Html.TextBoxFor(p => p.Name)
-    <label>Quantity per unit: </label> @Html.TextBoxFor(p => p.QuantityPerUnit)
-    <label>Price: </label> @Html.TextBoxFor(p => p.Price)
+    <label>Nombre: </label> @Html.TextBoxFor(p => p.Nombre)
+    <label>Precio: </label> @Html.TextBoxFor(p => p.Precio)
     <input type="submit" class="btn btn-success" value="Guardar" />
 }
