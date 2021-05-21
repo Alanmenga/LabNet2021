@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { MyPopUpComponent } from './componentes/my-pop-up/my-pop-up.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-mengassini';
+  constructor(public dialog: MatDialog) { }
+
+  openDialog(messaga: string): void {
+    const dialogRef = this.dialog.open(MyPopUpComponent, {
+      width: '360px',
+      data: messaga,
+    })
+  }
 }
