@@ -13,18 +13,18 @@ export class ProductoService {
   constructor(private http: HttpClient) { }
 
   postProducto(request: Producto) {
-    return this.http.post(environment.production + 'Product/', request);
+    return this.http.post(environment.product + 'Products/', request);
   }
   putProducto(request: Producto, id: number) {
-    return this.http.put(environment.production + 'Product/' + id, request);
+    return this.http.put(environment.product + 'Products/' + id, request);
   }
   getProducto(id: number): Observable<Producto> {
-    return this.http.get<any>(environment.production + 'Product/' + id);
+    return this.http.get<any>(environment.product + 'Products/' + id);
   }
   deleteProducto(id: number): Observable<Producto> {
-    return this.http.delete<any>(environment.production + 'Product/' + id);
+    return this.http.delete<any>(environment.product + 'Products/' + id);
   }
   getProductos(): Observable<Producto[]> {
-    return this.http.get<any>(environment.production + 'Product')
+    return this.http.get<any>(environment.product + 'Products')
   }
 }

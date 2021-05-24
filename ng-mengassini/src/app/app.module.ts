@@ -12,13 +12,17 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import { MyPopUpComponent } from './componentes/my-pop-up/my-pop-up.component';
+import { RegionesComponent } from './componentes/regiones/regiones.component';
+import { NewEditRegionComponent } from './componentes/new-edit-region/new-edit-region.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewEditComponent,
     ProductosComponent,
-    MyPopUpComponent
+    MyPopUpComponent,
+    RegionesComponent,
+    NewEditRegionComponent
   ],
   imports: [
     BrowserModule,

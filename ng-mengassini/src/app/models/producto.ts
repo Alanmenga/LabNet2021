@@ -5,6 +5,4 @@ export class Producto {
     Precio: number;
     UStock: number;
     UOrdenadas: number;
-
-    constructor(){}
 }

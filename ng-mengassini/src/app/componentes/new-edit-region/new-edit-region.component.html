@@ -1,0 +1,24 @@
+<div class="container pt-2">
+    <div class="row justify-content-sm-center pt-5">
+      <div style="padding: 30px; background-color: rgb(194, 194, 194);" class="col-sm-6 shadow round pb-3">
+        <h1 *ngIf="region.Id">Modificar region</h1>
+        <h1 *ngIf="!region.Id">Nueva region</h1>
+  
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" *ngIf="region">
+            
+          <div class="form-group">
+            <label class="col-form-label">Descripcion:</label>
+            <input formControlName="descripcion" type="text" max="20" class="form-control">
+            <small *ngIf="descripcionCtrl?.invalid && descripcionCtrl?.touched" class="text-danger">La descripcion es requerida</small>
+          </div>
+  
+          <div style="display: flex; justify-content: space-around; margin: 5px;">
+            <button type="submit" mat-raised-button color="primary" [disabled]="this.form.invalid">Modificar/Agregar</button>
+            <button mat-raised-button color="warn" (click)="onClickLimpiar()">Limpiar</button>
+          </div>
+  
+        </form>
+  
+      </div>
+    </div>
+  </div>

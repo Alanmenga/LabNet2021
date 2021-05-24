@@ -1,6 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-
 @Component({
   selector: 'app-my-pop-up',
   templateUrl: './my-pop-up.component.html',
@@ -17,14 +16,13 @@ export class MyPopUpComponent implements OnInit {
 
   ngOnInit(): void {
     if (this.message.includes("Error")) {
-      this.title = 'Oh no, algo salio mal :('
+      this.title = 'No se pudo completar operacion.'
     } else {
-      this.title = 'Operacion realizada con Exito'
+      this.title = 'Operacion exitosa.'
     }
   }
 
   onClickClose(): void {
     this.dialogRef.close();
   }
-
 }

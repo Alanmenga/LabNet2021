@@ -4,7 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscriber } from 'rxjs';
 import { Producto } from 'src/app/models/producto';
-import { ProductoService } from 'src/app/services/producto-service.service';
+import { ProductoService } from 'src/app/services/producto.service';
 import { MyPopUpComponent } from '../my-pop-up/my-pop-up.component';
 
 
@@ -14,8 +14,6 @@ import { MyPopUpComponent } from '../my-pop-up/my-pop-up.component';
   styleUrls: ['./new-edit.component.scss']
 })
 export class NewEditComponent implements OnInit {
-
-  //#region Constructor y OnInit
 
   constructor(private readonly fb: FormBuilder,
     private router: Router,
@@ -52,10 +50,6 @@ export class NewEditComponent implements OnInit {
 
   }
 
-  //#endregion
-
-  //#region Declaraciones
-
   producto: Producto;
   form: FormGroup;
 
@@ -78,10 +72,6 @@ export class NewEditComponent implements OnInit {
   get stockCtrl(): AbstractControl {
     return this.form.get('stock');
   }
-
-  //#endregion
-
-  //#region Funciones y metodos
 
   openDialog(messaga: string): void {
     const dialogRef = this.dialog.open(MyPopUpComponent, {
@@ -154,7 +144,5 @@ export class NewEditComponent implements OnInit {
   onClickLimpiar(): void {
     this.form.reset();
   }
-
-  //#endregion
 
 }
