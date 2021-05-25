@@ -17,14 +17,17 @@ namespace Mengassini.MVC.Controllers
         {
             List<Products> productos = logic.GetAll();
 
-            /*List<ProductView> productsView = productos.Select(p => new ProductView
+            List<ProductView> productsView = productos.Select(p => new ProductView
             {
                 Id = p.ProductID,
                 Nombre = p.ProductName,
-                Precio = (decimal)p.UnitPrice
-            }).ToList();*/
+                Cantidad = p.QuantityPerUnit,
+                Precio = p.UnitPrice,
+                UStock = p.UnitsInStock,
+                UOrdenadas = p.UnitsOnOrder
+            }).ToList();
 
-            return View(productos);
+            return View(productsView);
         }
 
         public ActionResult Insert()

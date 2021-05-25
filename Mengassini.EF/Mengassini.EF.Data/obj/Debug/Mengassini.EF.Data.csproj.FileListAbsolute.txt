@@ -58,3 +58,5 @@ C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\o
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\obj\Debug\Mengassini.EF.Data.csproj.CopyComplete
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\obj\Debug\Mengassini.EF.Data.dll
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\obj\Debug\Mengassini.EF.Data.pdb
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Data\bin\Debug\Newtonsoft.Json.xml

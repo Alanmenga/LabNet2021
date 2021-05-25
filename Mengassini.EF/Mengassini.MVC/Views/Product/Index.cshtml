@@ -1,4 +1,4 @@
-﻿@model List<Mengassini.EF.Entities.Products>
+﻿@model List<Mengassini.MVC.Models.ProductView>
 
 @{
     ViewBag.Title = "Products Page";
@@ -10,8 +10,11 @@
     <thead>
         <tr>
             <td scope="col">ID</td>
-            <td scope="col">Nombre Producto</td>
-            <td scope="col">Precio Producto</td>
+            <td scope="col">Nombre</td>
+            <td scope="col">Cantidad</td>
+            <td scope="col">Precio</td>
+            <td scope="col">Unidades en Stock</td>
+            <td scope="col">Unidades Ordenadas</td>
             <td scope="col">Action</td>
             <td scope="col">Action</td>
 
@@ -21,11 +24,14 @@
         @foreach (var product in Model)
         {
         <tr>
-            <td scope="row">@product.ProductID</td>
-            <td>@product.ProductName</td>
-            <td>@product.UnitPrice</td>
-            <td>@Html.ActionLink("Update", "Update", new { id = product.ProductID })</td>
-            <td>@Html.ActionLink("Borrar", "Delete", new { id = product.ProductID }, new { onclick = "return confirm('Estas seguro que deseas borrar?')" })</td>
+            <td scope="row">@product.Id</td>
+            <td>@product.Nombre</td>
+            <td>@product.Cantidad</td>
+            <td>@product.Precio</td>
+            <td>@product.UStock</td>
+            <td>@product.UOrdenadas</td>
+            <td>@Html.ActionLink("Update", "Update", new { id = product.Id })</td>
+            <td>@Html.ActionLink("Borrar", "Delete", new { id = product.Id }, new { onclick = "return confirm('Estas seguro que deseas borrar?')" })</td>
         </tr>
         }
     </tbody>

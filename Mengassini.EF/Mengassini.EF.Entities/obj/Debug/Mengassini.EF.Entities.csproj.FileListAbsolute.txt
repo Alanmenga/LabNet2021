@@ -22,3 +22,5 @@ C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entiti
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entities\obj\Debug\Mengassini.EF.Entities.csproj.CopyComplete
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entities\obj\Debug\Mengassini.EF.Entities.dll
 C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entities\obj\Debug\Mengassini.EF.Entities.pdb
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alan\Desktop\NeorisLab\Ejercicio9Api\Mengassini.EF\Mengassini.EF.Entities\bin\Debug\Newtonsoft.Json.xml
